@@ -19,7 +19,7 @@ def calc_media2(media_cps, gs):
    return(result2)
     
 media_semestre = calc_media2(media_cps, gs)
-print(f"Nota deste semestre sem a aplicação do peso: {media_semestre}")
+print(f"Nota deste semestre sem a aplicação do peso: {media_semestre:.1f}")
 
 def media_peso(media_semestre):
    result3 = (media_semestre * 0.4)
