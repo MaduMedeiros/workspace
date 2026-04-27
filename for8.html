@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script>
+        let dados = [10, 20, 30, 40];
+        let valor = 25;
+        let posicao = 2;
+     
+        console.log(dados);
+        dados.push(0); //abre uma posição no final
+
+       for (let i = dados.length - 1; i > posicao; i--){
+        dados[i] = dados[i - 1];
+        console.log("vetor depois da " + (dados.length-i) + "ª passagem =" + dados)
+       }
+// essa besteira toda do for é 
+// pra dizer que uma posição vai se clonar e colocar na posição a frente
+
+       //insere valor (25) na posição (2)
+       dados[posicao] = valor;
+       console.log(dados);
+   
+    </script>
+</head>
+<body>
+   
+</body>
+</html>
