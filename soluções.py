@@ -18,7 +18,7 @@ soma_np = np.sum(np.arange(10**6))
 fim = time.time()
 print(fim - inicio, "segundos")
 
-#modo3
+#modo3 mais rápido
 inicio = time.time()
 for i in range (0,10**6, 10):
     soma += i
