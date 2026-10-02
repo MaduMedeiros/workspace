@@ -1,3 +1,6 @@
+#dados = list()
+#dados.append('boleta')
+
 lanche = ('hamborgue', 'santosxtudo', 'mariaonese', 'xsalove', 'hamborgue')
 #for count in range(0, len(lanche)):
 #    print(f'eu já comi uns {lanche[count]}')
